@@ -32,3 +32,23 @@ hhyo/archery                      v1.8.3     1f60ed35eb88   6 weeks ago    1.83G
 docker/dev-environments-default   stable-1   7c85b0303242   9 months ago   607MB
 hhyo/inception                    latest     855f6b4524b7   3 years ago    688MB
 ```
+
+# 启动
+
+```bin
+gaoxinfudeMacBook-Pro:docker gaoxinfu$ pwd
+/Users/gaoxinfu/data/docker
+gaoxinfudeMacBook-Pro:docker gaoxinfu$ docker run -d -e TZ="Asia/Shanghai" -p 2181:2181 -v /Users/gaoxinfu/data/docker:/data --name zookeeper --restart always zookeeper
+11ddfc1283f0953c9372021d63490d316a4294f736829e28b600a1e6c2d2d460
+gaoxinfudeMacBook-Pro:docker gaoxinfu$ docker ps -la
+CONTAINER ID   IMAGE       COMMAND                  CREATED          STATUS          PORTS                                                  NAMES
+11ddfc1283f0   zookeeper   "/docker-entrypoint.…"   26 seconds ago   Up 22 seconds   2888/tcp, 3888/tcp, 0.0.0.0:2181->2181/tcp, 8080/tcp   zookeeper
+gaoxinfudeMacBook-Pro:docker gaoxinfu$ docker ps
+CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS          PORTS                                                  NAMES
+11ddfc1283f0   zookeeper             "/docker-entrypoint.…"   32 seconds ago   Up 28 seconds   2888/tcp, 3888/tcp, 0.0.0.0:2181->2181/tcp, 8080/tcp   zookeeper
+ba2fe88dff5d   jenkins/jenkins:lts   "/sbin/tini -- /usr/…"   13 hours ago     Up 9 hours      50000/tcp, 0.0.0.0:8090->8080/tcp                      jenkins
+952ef07e646e   sonatype/nexus3       "sh -c ${SONATYPE_DI…"   22 hours ago     Up 5 minutes    0.0.0.0:8081->8081/tcp                                 nexus3
+gaoxinfudeMacBook-Pro:docker gaoxinfu$ 
+```
+
+
