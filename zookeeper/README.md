@@ -1,4 +1,5 @@
 # 拉取镜像
+## 拉取镜像命令 
 
 ```bin
 gaoxinfudeMacBook-Pro:~ gaoxinfu$ docker pull zookeeper
@@ -17,7 +18,7 @@ Status: Downloaded newer image for zookeeper:latest
 docker.io/library/zookeeper:latest
 ```
 
-**我们看列表本地镜像里已经有了zookeeper**
+## 我们看列表本地镜像里已经有了zookeeper
 ```bin
 gaoxinfudeMacBook-Pro:~ gaoxinfu$ docker images
 REPOSITORY                        TAG        IMAGE ID       CREATED        SIZE
@@ -35,6 +36,7 @@ hhyo/inception                    latest     855f6b4524b7   3 years ago    688MB
 
 # 启动
 
+## 启动命令 
 ```bin
 gaoxinfudeMacBook-Pro:docker gaoxinfu$ pwd
 /Users/gaoxinfu/data/docker
@@ -42,7 +44,16 @@ gaoxinfudeMacBook-Pro:docker gaoxinfu$ docker run -d -e TZ="Asia/Shanghai" -p 21
 11ddfc1283f0953c9372021d63490d316a4294f736829e28b600a1e6c2d2d460
 ```
 
-**查看是否启动成功**
+## 命令说明 
+```bin
+-e TZ="Asia/Shanghai" # 指定上海时区 
+-d # 表示在一直在后台运行容器
+-p 2181:2181 # 对端口进行映射，将本地2181端口映射到容器内部的2181端口
+--name # 设置创建的容器名称
+-v # 将本地目录(文件)挂载到容器指定目录；--restart always #始终重新启动zookeeper
+```
+
+## 查看是否启动成功
 
 ```bin
 gaoxinfudeMacBook-Pro:docker gaoxinfu$ docker ps
@@ -55,10 +66,10 @@ gaoxinfudeMacBook-Pro:docker gaoxinfu$
 
 
 # 连接
-**连接工具【prettyZoo mac版本】如果需要可以留言 **
-**连接配置**
+**连接工具【prettyZoo mac版本】如果需要可以留言 
+## 连接配置
 <img width="1035" alt="image" src="https://user-images.githubusercontent.com/26900268/168450417-1223930b-d727-4fcf-96d5-03937e6e1e25.png">
-**连接成功**
+## 连接成功
 <img width="1108" alt="image" src="https://user-images.githubusercontent.com/26900268/168450421-d2ea605d-de9a-4768-829f-a894a0275fe1.png">
 
 
