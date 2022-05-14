@@ -69,3 +69,13 @@ root@ba2fe88dff5d:/#
 **安装中**
 <img width="989" alt="image" src="https://user-images.githubusercontent.com/26900268/168421403-8680257b-74dc-4899-ac23-484fea823368.png">
 
+
+
+<img width="1005" alt="image" src="https://user-images.githubusercontent.com/26900268/168426460-588f22ed-5d53-4ec2-b633-c7b8c8d0e81a.png">
+
+<img width="999" alt="image" src="https://user-images.githubusercontent.com/26900268/168426487-67509bfc-4b92-4b9e-8ca5-a3cb85e5d466.png">
+
+<img width="978" alt="image" src="https://user-images.githubusercontent.com/26900268/168426526-0825f78e-bfd8-4cd7-abc4-02f0fa342a65.png">
+
+
+
