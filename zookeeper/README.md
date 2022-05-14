@@ -54,3 +54,14 @@ gaoxinfudeMacBook-Pro:docker gaoxinfu$
 ```
 
 
+# 连接
+**连接工具【prettyZoo mac版本】如果需要可以留言 **
+**连接配置**
+<img width="1035" alt="image" src="https://user-images.githubusercontent.com/26900268/168450417-1223930b-d727-4fcf-96d5-03937e6e1e25.png">
+**连接成功**
+<img width="1108" alt="image" src="https://user-images.githubusercontent.com/26900268/168450421-d2ea605d-de9a-4768-829f-a894a0275fe1.png">
+
+
+
+
+
