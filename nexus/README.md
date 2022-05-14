@@ -1,3 +1,5 @@
+# 创建本地存储nexus数据的文件件
+
 ```java
 gaoxinfudeMacBook-Pro:docker gaoxinfu$ pwd
 /Users/gaoxinfu/data/docker
@@ -8,6 +10,11 @@ drwxr-xr-x  2 gaoxinfu  staff  64  5 14 08:55 .
 drwxr-xr-x  3 gaoxinfu  staff  96  5 14 08:55 ..
 gaoxinfudeMacBook-Pro:nexus gaoxinfu$ pwd
 /Users/gaoxinfu/data/docker/nexus
+```
+
+# 拉取镜像
+
+```
 gaoxinfudeMacBook-Pro:nexus gaoxinfu$ 
 gaoxinfudeMacBook-Pro:nexus gaoxinfu$ 
 gaoxinfudeMacBook-Pro:nexus gaoxinfu$ 
