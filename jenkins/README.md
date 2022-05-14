@@ -33,6 +33,7 @@ gaoxinfudeMacBook-Pro:nexus gaoxinfu$
 **启动可能有点慢，需要等待一下**
 
 http://localhost:8090
-
+**开始登录**
+<img width="1090" alt="image" src="https://user-images.githubusercontent.com/26900268/168421089-d72cffb1-ad6c-4cd5-b6b3-1b0cc33342a4.png">
 
 
