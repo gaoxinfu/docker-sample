@@ -16,6 +16,12 @@ http://www.redis.cn/download.html
 **将这个文件 可以复制到自己的自定义的目录下，以后改这个文件配置即可**
 <img width="1067" alt="image" src="https://user-images.githubusercontent.com/26900268/168451450-cb8493d3-f918-4949-96b8-437b5fdee897.png">
 <img width="1143" alt="image" src="https://user-images.githubusercontent.com/26900268/168451469-65de7f8c-72e2-454d-b456-df02c256e311.png">
-**修改重要的一个可以访问的配置,**
- bind 127.0.0.1 #注释掉这部分，使redis可以外部访问
+
+**修改redis.conf的三个重要配置**
+
+```bin
+ # bind 127.0.0.1 #注释掉这部分，使redis可以外部访问
+ protected-mode no
+ appendonly yes 
+```
 <img width="993" alt="image" src="https://user-images.githubusercontent.com/26900268/168451423-638fde67-8c6f-4b31-beb2-b49972403b23.png">
