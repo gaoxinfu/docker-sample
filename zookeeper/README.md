@@ -40,9 +40,11 @@ gaoxinfudeMacBook-Pro:docker gaoxinfu$ pwd
 /Users/gaoxinfu/data/docker
 gaoxinfudeMacBook-Pro:docker gaoxinfu$ docker run -d -e TZ="Asia/Shanghai" -p 2181:2181 -v /Users/gaoxinfu/data/docker:/data --name zookeeper --restart always zookeeper
 11ddfc1283f0953c9372021d63490d316a4294f736829e28b600a1e6c2d2d460
-gaoxinfudeMacBook-Pro:docker gaoxinfu$ docker ps -la
-CONTAINER ID   IMAGE       COMMAND                  CREATED          STATUS          PORTS                                                  NAMES
-11ddfc1283f0   zookeeper   "/docker-entrypoint.…"   26 seconds ago   Up 22 seconds   2888/tcp, 3888/tcp, 0.0.0.0:2181->2181/tcp, 8080/tcp   zookeeper
+```
+
+**查看是否启动成功**
+
+```bin
 gaoxinfudeMacBook-Pro:docker gaoxinfu$ docker ps
 CONTAINER ID   IMAGE                 COMMAND                  CREATED          STATUS          PORTS                                                  NAMES
 11ddfc1283f0   zookeeper             "/docker-entrypoint.…"   32 seconds ago   Up 28 seconds   2888/tcp, 3888/tcp, 0.0.0.0:2181->2181/tcp, 8080/tcp   zookeeper
