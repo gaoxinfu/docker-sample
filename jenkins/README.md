@@ -60,3 +60,12 @@ c3b52050973442018cf3531d52234da5
 root@ba2fe88dff5d:/# 
 ```
 <img width="1009" alt="image" src="https://user-images.githubusercontent.com/26900268/168421273-22bec67b-dec5-4263-a94b-c5685df52021.png">
+
+**选择默认的插件**
+
+<img width="1192" alt="image" src="https://user-images.githubusercontent.com/26900268/168421435-04969e3c-079e-47bd-a8c3-cace9255d0a3.png">
+
+
+**安装中**
+<img width="989" alt="image" src="https://user-images.githubusercontent.com/26900268/168421403-8680257b-74dc-4899-ac23-484fea823368.png">
+
