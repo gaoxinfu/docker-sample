@@ -59,4 +59,6 @@ bash-4.4$ vi /nexus-data/admin.password
 **浏览器打开**
 <img width="1431" alt="image" src="https://user-images.githubusercontent.com/26900268/168405969-b358e5a4-ddbd-4e86-9384-2647213848ea.png">
 
+**登录后**
+<img width="1352" alt="image" src="https://user-images.githubusercontent.com/26900268/168406003-ec2dd3e4-d0ff-46e5-b8fa-2bfd32e2a81f.png">
 
