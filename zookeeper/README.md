@@ -39,7 +39,7 @@ hhyo/inception                    latest     855f6b4524b7   3 years ago    688MB
 ## 启动命令 
 ```bin
 gaoxinfudeMacBook-Pro:docker gaoxinfu$ pwd
-/Users/gaoxinfu/data/docker
+/Users/gaoxinfu/data/docker/zookeeper
 gaoxinfudeMacBook-Pro:docker gaoxinfu$ docker run -d -e TZ="Asia/Shanghai" -p 2181:2181 -v /Users/gaoxinfu/data/docker/zookeeper:/data --name zookeeper --restart always zookeeper
 11ddfc1283f0953c9372021d63490d316a4294f736829e28b600a1e6c2d2d460
 ```
