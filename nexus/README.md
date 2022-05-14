@@ -55,3 +55,8 @@ gaoxinfudeMacBook-Pro:nexus gaoxinfu$ docker exec -it 952ef07e646e  /bin/bash
 bash-4.4$ vi /nexus-data/admin.password
 bash-4.4$ vi /nexus-data/admin.password
 ```
+
+**浏览器打开**
+<img width="1431" alt="image" src="https://user-images.githubusercontent.com/26900268/168405969-b358e5a4-ddbd-4e86-9384-2647213848ea.png">
+
+
